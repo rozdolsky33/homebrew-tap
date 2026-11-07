@@ -1,7 +1,6 @@
 class CuiProxy < Formula
   desc "Fail-closed local proxy that masks sensitive data in Codex CLI traffic"
   homepage "https://github.com/rozdolsky33/cui-proxy"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
