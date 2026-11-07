@@ -3,7 +3,16 @@
 Homebrew formulae for [rozdolsky33](https://github.com/rozdolsky33)'s tools.
 
 ```sh
+brew install rozdolsky33/tap/cui-proxy
+```
+
+Homebrew 6+ requires you to trust a non-official tap before it loads formulae
+from it. The command above trusts only `cui-proxy`. To tap first and install by
+short name:
+
+```sh
 brew tap rozdolsky33/tap
+brew trust --formula rozdolsky33/tap/cui-proxy    # or: brew trust rozdolsky33/tap
 brew install cui-proxy
 ```
 
