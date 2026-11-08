@@ -5,23 +5,23 @@ class CuiProxy < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/rozdolsky33/cui-proxy/releases/download/v0.3.2/cui-proxy_0.3.2_darwin_arm64.tar.gz"
-      sha256 "17893a6e16c1c4a4dd52581e9a23af4296d58f44a77dd1df17ea3ba1940ddc0a"
+      url "https://github.com/rozdolsky33/cui-proxy/releases/download/v0.3.3/cui-proxy_0.3.3_darwin_arm64.tar.gz"
+      sha256 "67c2f43ff75e65ff7c2817d5d4b22ace04d201f90270bc7b033240d6be73af08"
     end
     on_intel do
-      url "https://github.com/rozdolsky33/cui-proxy/releases/download/v0.3.2/cui-proxy_0.3.2_darwin_amd64.tar.gz"
-      sha256 "e188b23e51b64b306df65c8252180d052296e2ddf57b81a5e975f90dcada6352"
+      url "https://github.com/rozdolsky33/cui-proxy/releases/download/v0.3.3/cui-proxy_0.3.3_darwin_amd64.tar.gz"
+      sha256 "0cea94a167f693dd2b96235ab9e0f68e730060a4673a3fa8413d65d4fd168482"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rozdolsky33/cui-proxy/releases/download/v0.3.2/cui-proxy_0.3.2_linux_arm64.tar.gz"
-      sha256 "e075bb188c2e26e43f967cba144ac973062590451fc27ea43e68e244cfb8e4de"
+      url "https://github.com/rozdolsky33/cui-proxy/releases/download/v0.3.3/cui-proxy_0.3.3_linux_arm64.tar.gz"
+      sha256 "730659133eb5fbc1493f57fdb5a1df82a2e57e89bebadb8287cf6fb79b9b6d8a"
     end
     on_intel do
-      url "https://github.com/rozdolsky33/cui-proxy/releases/download/v0.3.2/cui-proxy_0.3.2_linux_amd64.tar.gz"
-      sha256 "e461901ae3c5fb43aa432729049b4b4a8dd79669627627d98c55245f50a4a29f"
+      url "https://github.com/rozdolsky33/cui-proxy/releases/download/v0.3.3/cui-proxy_0.3.3_linux_amd64.tar.gz"
+      sha256 "fa8d1fd691244fd51903fb7cd6a599b6cf630ddcd0698789164b70e89be6e775"
     end
   end
 
